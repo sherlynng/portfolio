@@ -1,0 +1,121 @@
+/*!
+ * Start Bootstrap - Half Slider (https://startbootstrap.com/template-overviews/half-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/master/LICENSE)
+ */
+
+/*@font-face {*/
+  /*font-family: 'Montserrat';*/
+  /*src: url('../fonts/Montserrat-Regular') format('ttf');*/
+/*}*/
+
+/*@font-face {*/
+  /*font-family: 'Indie Flower';*/
+  /*src: url('../fonts/IndieFlower') format('ttf');*/
+/*}*/
+
+@font-face {
+  font-family: 'GFS Didot';
+  src: url('../fonts/GFSDidot-Regular') format('ttf');
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: black;
+}
+
+#name {
+  height: 10vh;
+  background-color: #343434;
+  opacity: 0.7;
+  width: 100%;
+  top: 0;
+  bottom: auto;
+}
+
+#name h3 {
+  font-family: 'GFS Didot', serif;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  font-size: 25px;
+}
+
+#info {
+  background-color: #343434;
+  opacity: 0.7;
+  width: 100%;
+  position: absolute;
+  padding-bottom: 5px;
+}
+
+#info h4, #info h5 {
+  font-size: 20px;
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'GFS Didot', serif;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.section span {
+  color: white;
+}
+
+.section {
+  /*height: calc(100vh - 40px);*/
+  /*min-height: 460px;*/
+  /*max-width: calc(100vw - 40px);*/
+  /*height: 25vh;*/
+  background: black;
+  outline-color: #b9bbbe;
+  outline-style: double;
+  margin: 20px;
+  position: relative;
+  text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-transform: translate3d(0,0,0); /* Solves Safari bug because of SVG clipping mask */
+}
+
+.section:hover{
+  transition: background-color 1s;
+  color: dimgrey;
+}
+
+.section span {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 7vh;
+  color: #6c757d;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.section-item {
+  height: 21vh;
+  background: black;
+  position: relative;
+  text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-transform: translate3d(0,0,0); /* Solves Safari bug because of SVG clipping mask */
+}

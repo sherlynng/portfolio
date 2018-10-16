@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>thenotesrefinery</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-tnf.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="portfolio.html">
+            <i class="fa fa-arrow-circle-left"></i> Back to Portfolio</a>
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#introduction">INTRODUCTION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#research">RESEARCH</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#ideation">IDEATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#design">DESIGN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#prototype">PROTOTYPE</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid p-0">
+
+    <section class="portfolio-section d-flex d-column">
+        <div class="my-auto text-center" id="heading">
+            <h1 class="mb-0">thenotesrefinery</h1><br>
+            <h3 class="text-primary">Collaboration for Version 3.0</h3><br>
+            <h5>15 Sep 2018 – 15 Oct 2018</h5>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="introduction">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Introduction</h2>
+            <p class="mb-5"><b><i>thenotesrefinery</i></b> is a website that facilitates the collaborative notes sharing
+                process by
+                creating a platform for students to upload their notes, help one another and improve together. Through
+                the websites, users are able to search, upload and share O and A level notes.</p>
+
+            <h4>About The Project</h4><br>
+            <p>I am honoured to be able to collaborate with thenotesrefinery to design the preliminary User Interface
+                (UI) for Version 3.0.</p>
+            <p>2 main reasons for the need to change the current UI:</p>
+            <ul>
+                <li>Change in verification process, where registered members of thenotesrefinery are now the ones
+                    managing the verification process. Once a note has been verified by 5 members, it will be accessible
+                    for all to download.
+                </li>
+                <li>The current UI uses WordPress plugin. However, due to the excessive number of plugins used, it
+                    results in slow response of the web pages.
+                </li>
+            </ul>
+            <br>
+            <div>
+                <h3><i class="fa fa-wrench"></i> Tools</h3>
+                <p>HTML | CSS | Bootstrap | jQuery</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="research">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Research</h2>
+
+            <h3>Problems with Current Interface</h3><br>
+
+            <h4>Search</h4>
+            <p>When users first enter the website, the most basic function (search) is not prominently shown in the home
+                page. The search bar is actually hidden in the side navigation bar, which is not intuitive.</p>
+            <div class="text-center">
+                <img src="img/tnf/search.PNG" alt="Search" class="design">
+            </div>
+            <br><br>
+
+            <h4>Search List</h4>
+            <p>Users are restricted to only filter the notes by subject type and there is limited flexibility to the
+                search function. Moreover, details of each note can only be viewed upon mouse hover, making it very
+                inefficient for users to navigate through every note. In addition, the details only included the title
+                of the note, without any other descriptions like the author, description, ratings etc.</p>
+            <div class="text-center">
+                <img src="img/tnf/search-list.PNG" alt="Search List" class="design">
+            </div>
+            <br><br>
+
+            <h4>Login</h4>
+            <h6><i>Violates Nielsen’s Heuristics H-4 (Consistency and standards)</i></h6>
+            <p>User login is placed at the bottom of the home page but almost every functionality, for example
+                viewing/downloading notes, requires user to login. This placement is unconventional, and most users will
+                face difficulties in finding it.</p>
+            <div class="text-center">
+                <img src="img/tnf/login.PNG" alt="Login" class="design">
+            </div>
+            <br><br>
+
+            <h4>Navigation Bar</h4>
+            <h6><i>Violates Nielsen’s Heuristics H-6 (Recognition rather than recall)</i></h6>
+            <p>A side navigation bar is used in the current version. The section ‘Subjects’ is always highlighted in
+                bold despite the user being on different pages. This could be misleading to the users when they are on
+                another section of the website.</p>
+            <div class="text-center">
+                <img src="img/tnf/side-bar.PNG" alt="Side Bar" id="sidebar">
+            </div>
+            <br><br>
+
+            <h4>Colour Scheme</h4>
+            <h6><i>Violates Nielsen’s Heuristics H-4 (Consistency and standards)</i></h6>
+            <p>The colour scheme used is inconsistent. In general, it follows a royal blue theme but in the center of
+                the home page, 3 buttons with 3 different colours (blue, green and red) are used, disrupts the theme of
+                the page.</p>
+            <p>Moreover, there is no correlation between the colours chosen and the functionality of the buttons. For
+                example, why is the ‘Sharing your notes’ in green but ‘Referring 5 friends’ in red? The colours used
+                could mislead the user as green is usually used for positive/agreement while red is used for
+                negative/disagreement.</p>
+            <div class="text-center">
+                <span>
+                    <img src="img/tnf/colours.PNG" alt="Colour Scheme" class="design">
+                </span>
+            </div>
+            <br><br><br>
+
+            <h3>Empathy Map</h3><br>
+            <div class="text-center">
+                <img src="img/tnf/Empathy%20Map.png" alt="Empathy Map" class="design">
+            </div>
+        </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="ideation">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Ideation</h2>
+            <p>The following are the solutions to solve the problems identified previously.</p><br>
+
+            <h4>Search</h4>
+            <p>As this is a note searching website, I decided to go for a minimalist design approach as the main purpose
+                of the website is for users to navigate around and search for notes easily. Following Nielsen’s
+                Heuristics H-8 (Aesthetic and minimalist design) and analysing minimalist search engines like Google and
+                OneSearch (NLB catalogue search), I decided that the search bar should be the first item on the home
+                page as this is the primary function that users will be using.</p>
+            <div class="text-center">
+                <img src="img/tnf/3.0-basic-search.PNG" alt="3.0 Basic Search" class="design">
+            </div>
+            <br><br>
+
+            <h4>Search List</h4>
+            <p>This column layout is chosen for displaying the list of notes as it allows users to view information
+                easily and more details of each note (author, date uploaded, views, ratings etc) are provided in
+                addition to the title.</p>
+            <div class="text-center">
+                <img src="img/tnf/3.0-search-list.PNG" alt="3.0 Search List" class="design">
+            </div>
+            <br><br><br>
+            <p>There is also increase in flexibility to the search function, where users can search for notes using
+                keyword, by the user name, filter by multiple subjects and choosing of level.</p>
+            <div class="text-center">
+                <img src="img/tnf/3.0-advanced-search.PNG" alt="3.0 Advanced Search" class="design">
+            </div>
+            <br><br>
+
+            <h4>Login</h4>
+            <p>Following Nielsen’s Heuristics H-4 (Consistency and standards), the sign in button is placed at the top
+                right corner of the navigation bar, a standard position used by many applications like Google, Facebook
+                and YouTube.</p>
+            <div class="text-center">
+                <img src="img/tnf/3.0-login.PNG" alt="3.0 Login" class="design">
+            </div>
+            <br><br>
+
+            <h4>Navigation Bar</h4>
+            <p>The navigation bar is changed to a top navigation bar with a fixed position as it makes it easier for the
+                user to change tabs as it is always accessible to the user. The section on the navigation bar is also
+                correctly colour coded, where the text is darker in colour when the user is on that section, to
+                facilitate the user in recalling which section they are currently in.</p>
+            <div class="text-center">
+                <img src="img/tnf/3.0-navigationbar.PNG" alt="3.0 Navigation Bar" class="design">
+            </div>
+            <br><br>
+
+            <h4>Colour Scheme</h4>
+            <p>The colour scheme follows a royal blue theme, similar to the logo of thenotesrefinery.</p>
+            <div class="text-center">
+                <img src="img/tnf/3.0-colour-scheme.PNG" alt="3.0 Colour Scheme" class="design">
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="design">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Design</h2>
+            <div class="text-center">
+                <img src="img/boc/designs.png" alt="Design 1" class="design">
+            </div>
+            <h3>User Flow</h3>
+            <div class="text-center">
+                <img src="img/boc/User%20Flow.png" alt="User Flow" class="design">
+            </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="prototype">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Prototype</h2>
+            <a href="https://sherlynng.github.io/thenotesrefinery3.0/home.html" target="_blank" class="btn btn-secondary btn-lg btn-block"><i>thenotesrefinery</i> Version 3.0
+                <i class="fa fa-chevron-right"></i>
+            </a>
+            <a href="https://thenotesrefinery.com/" target="_blank" class="btn btn-outline-secondary btn-lg btn-block">Current version of <i>thenotesrefinery</i>
+                <i class="fa fa-chevron-right"></i>
+            </a>
+        </div>
+    </section>
+
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="library/jquery/jquery.min.js"></script>
+<script src="library/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="library/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/portfolio-navbar.js"></script>
+
+</body>
+
+</html>

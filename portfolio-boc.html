@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bank Of China</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-boc.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="portfolio.html">
+            <i class="fa fa-arrow-circle-left"></i> Back to Portfolio</a>
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#introduction">INTRODUCTION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#research">RESEARCH</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#ideation">IDEATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#design">DESIGN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#prototype">PROTOTYPE</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid p-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex d-column" >
+        <div class="my-auto text-center" id="heading">
+            <h1 class="mb-0 text-center">Bank Of China-<br>NUS Hackathon 2018</h1><br>
+            <h3 class="text-primary text-center">Semi-Finalist</h3><br>
+            <h5>26 Oct (9am) – 27 Oct (9am)</h5>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="introduction">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Introduction</h2>
+            <p class="mb-5">Within 24 hours, in a group of 4 members, we were given the problem statement and had
+                to develop solutions to real-life problems for retail banking in the financial world. My team chose the
+                following problem statement below as funds transfer is one of the most fundamental features in banking
+                and we would like to create a pleasant experience for both new and loyal users when using this
+                frequently used functionality.</p>
+            <div class="subheading mb-5 jumbotron">
+                <h4>Problem Statement 2.2 -- Enabling a Seamless Transaction Experience</h4><br>
+                <p>
+                    Currently, Bank Of China (BOC) has funds transfer functions for its own accounts transfers, 3rd
+                    party
+                    BOC accounts transfers, local bank transfers, international remittance and RMB - remittance.
+                    <br><br>
+                    How can BOC build a common funds transfer screen on its Mobile Banking App to cater to all its
+                    transfer
+                    functions and deliver a simple and intuitive transactional flow?
+                </p>
+            </div>
+            <div>
+                <h3><i class="fa fa-wrench"></i> Tools</h3>
+                <p>Figma | InVision</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="research">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Research</h2>
+
+            <h4>Current Application</h4>
+            <div class="text-center">
+                <span>
+                    <img src="img/boc/BOC1.jpeg" alt="BOC Current App 1" class="currentApp">
+                    <img src="img/boc/BOC2.jpeg" alt="BOC Current App 2" class="currentApp">
+                    <img src="img/boc/BOC3.jpeg" alt="BOC Current App 3" class="currentApp">
+                    <img src="img/boc/BOC4.jpeg" alt="BOC Current App 4" class="currentApp">
+                </span>
+            </div>
+            <br>
+            <h4>Pain Point</h4>
+            <p>Single Page, but user keeps being directed to a separate page to choose the account, before going back to
+                the same page. The constant forward and back flow of the transaction process breaks the overall app
+                flow.</p>
+            <br>
+            <h4>Heuristics Violated</h4>
+            <h6>H-4 Consistency and standards</h6>
+            <p>The colour theme is not uniform (eg uses red for header, blue for buttons and tags and suddenly uses a
+                small green arrow for conversion). Also, in the main page, the two headings are “Payer’s Account” and
+                “Payee’s Account”, but at the page where user is asked to choose “Payee’s Account”, the header shows
+                “Select transfer-in account” rather than “Select Payee’s Account”. This can potentially confuse the user
+                due to mismatch in the titles.</p>
+            <br>
+            <h6>H-5 Error Prevention</h6>
+            <p>Not only that there are many similar words, such as ‘payer’ and ‘payee’, ‘pay-out’ and ‘pay-in’, they are
+                also placed in close proximity, either top and bottom or side by side in the current interface. This
+                increases the chances of errors as users can misread the texts easily, especially when they are no other
+                visual cues.</p>
+            <br>
+            <h4>Other Similar Applications</h4>
+            <div class="text-center">
+                <span>
+                    <img src="img/boc/dbs.png" alt="DBS" class="currentApp">
+                    <img src="img/boc/uob.png" alt="UOB" class="currentApp">
+                </span>
+            </div>
+            <p class="text-center">DBS (left), UOB (right)</p>
+            <p>Reduces memory load with good usage of icons. However, users may be overwhelmed by the large number of
+                choices for different transfer methods.</p>
+
+            <div class="text-center">
+                <img src="img/boc/maybank.png" alt="DBS" class="currentApp">
+            </div>
+            <p class="text-center">Maybank</p>
+            <p>Minimalist design but the size of the buttons are quite small and congregated at the top of the
+                screen. </p>
+
+            <div class="text-center">
+                <img src="img/boc/dbs-confirmation.png" alt="DBS" class="currentApp">
+            </div>
+            <p class="text-center">DBS Confirmation Page</p>
+            <p>Confirmation page for user verification reduces risks of errors.</p>
+        </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="ideation">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Ideation</h2>
+            <p>After looking at the current design of the app and other similar apps, my group decided on the following
+                points: </p><br>
+
+            <h4>One direction flow with minimal buttons on each page</h4>
+            <h6><i>Compiles to Neilson’s Heuristics H-8 (Aesthetic and minimalist design)</i></h6>
+            <ul>
+                <li>To reduce cognitive load on users</li>
+                <li>Rather than following the 3-click rule and causing users to be overwhelmed by the number of choices,
+                    each click is made easy by extracting out any extraneous information and provide progressive levels
+                    of detail along the way
+                </li>
+                <li>Fat finger rule is also followed, where large buttons are used, making it easy to navigate around
+                    for all users
+                </li>
+            </ul>
+            <div class="text-center">
+                <img src="img/boc/Transfers%20(OT,%20Remit)%20Page.png" alt="Transfer Page" class="currentApp">
+            </div>
+
+            <br>
+
+            <h4>Usage of Icons</h4>
+            <h6><i>Compiles to Neilson’s Heuristics H-6 (Recognition rather than recall)</i></h6>
+            <ul>
+                <li>Increase visualisation by using icons that users are familiar with</li>
+                <li>Facilitate them in carrying out their tasks</li>
+            </ul>
+            <div class="text-center">
+                <span>
+                    <img src="img/boc/Choose%20Type%20of%20Transfer.png" alt="Choose Type of Transfer"
+                         class="currentApp">
+                    <img src="img/boc/Remittance%20Page.png" alt="Remittance Page" class="currentApp">
+                </span>
+            </div>
+
+            <br>
+
+            <h4>Confirmation page after submitting certain details</h4>
+            <h6><i>Compiles to Neilson’s Heuristics H-5 (Error prevention)</i></h6>
+            <ul>
+                <li>Reduce errors by asking user to double check the information they had just keyed in</li>
+            </ul>
+            <div class="text-center">
+                <img src="img/boc/Verification%20Page.png" alt="Transfer Page" class="currentApp">
+            </div>
+
+            <br>
+
+            <h4>Follow a consistent app theme</h4>
+            <h6><i>Compiles to Neilson’s Heuristics H-4 (Consistency and standard)</i></h6>
+            <ul>
+                <li>Red theme was chosen as it is the colour scheme for BOC</li>
+                <li>Button layouts and transfer flow for different types of transfers were also kept consistent to
+                    provide familiarity for users
+                </li>
+            </ul>
+            <div class="text-center">
+                <img src="img/boc/Verification%20Page.png" alt="Verification Page" class="currentApp">
+            </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="design">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Design</h2>
+            <div class="text-center">
+                <img src="img/boc/designs.png" alt="Design 1" class="design">
+            </div>
+            <h3>User Flow</h3>
+            <div class="text-center">
+                <img src="img/boc/User%20Flow.png" alt="User Flow" class="design">
+            </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="prototype">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Prototype</h2>
+            <div class="text-center">
+                <iframe style="transform: scale(0.8)" width="450" height="1010" src="https://invis.io/EHOG1JK4KCP#/322028202_Splash_Screen" frameborder="0"
+                        allowfullscreen></iframe>
+            </div>
+            <br>
+            <h3>Possible Enhancements</h3>
+            <p>Due to time constraint, only the main transaction flow was demonstrated. After presentation to the
+                judges, some feedbacks for improvements include:</p>
+            <ul>
+                <li>Incorporating a two-factor authentication system to increase security</li>
+                <li>Adding a ‘Favourites’ list for actions that are commonly used by the user</li>
+                <li>Including a ‘Home’ button for users to navigate back easily to the home page</li>
+            </ul>
+            <p>These features will definitely be taken into consideration if more time was permitted.</p>
+        </div>
+    </section>
+
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="library/jquery/jquery.min.js"></script>
+<script src="library/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="library/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/portfolio-navbar.js"></script>
+
+</body>
+
+</html>

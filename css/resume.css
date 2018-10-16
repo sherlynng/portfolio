@@ -1,0 +1,117 @@
+/*!
+ * Start Bootstrap - Resume v5.0.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+/*@font-face {*/
+    /*font-family: 'Montserrat';*/
+    /*src: url('../fonts/Montserrat-Regular') format('ttf');*/
+/*}*/
+
+@font-face {
+    font-family: 'GFS Didot';
+    src: url('../fonts/GFSDidot-Regular') format('ttf');
+}
+
+body {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'GFS Didot', serif;
+    padding-top: 54px;
+    color: #868e96;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        /*padding-left: 5rem;*/
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'GFS Didot', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 2px gray;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: black;
+    opacity: 0.7;
+}
+
+nav a {
+    font-weight: bold;
+}
+
+.social-icons a {
+    color: grey;
+    padding-left: 20px;
+}
+
+section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+    min-width: none;
+}
+
+@media (min-width: 768px) {
+    section.resume-section {
+        min-height: 100vh;
+    }
+
+    section.resume-section .resume-item .resume-date {
+        min-width: 18rem;
+    }
+}
+
+@media (min-width: 992px) {
+    section.resume-section {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+    }
+}
+
+.text-primary {
+    color: grey !important;
+}
+
+#resume {
+    float: right;
+}

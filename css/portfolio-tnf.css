@@ -99,10 +99,10 @@ section.portfolio-section {
     padding: 5px;
 }
 
-.design {
+.ideation, .design {
   width: 900px;
 }
 
-#design h5 {
+#ideation h5 {
   padding-top: 20px;
 }

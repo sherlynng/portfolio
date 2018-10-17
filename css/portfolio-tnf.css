@@ -100,5 +100,9 @@ section.portfolio-section {
 }
 
 .design {
-  width: 1000px;
+  width: 900px;
+}
+
+#design h5 {
+  padding-top: 20px;
 }

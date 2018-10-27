@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>VIMU</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-vimu.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="portfolio.html">
+            <i class="fa fa-arrow-circle-left"></i> Back to Portfolio</a>
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#introduction">INTRODUCTION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#empathize">EMPATHIZE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#define">DEFINE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#ideation">IDEATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#prototype">PROTOTYPE</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid p-0">
+
+    <section class="portfolio-section d-flex d-column">
+        <div class="my-auto text-center" id="heading">
+            <h1 class="mb-0">VIMU</h1><br>
+            <h3 class="text-primary">CS3240 Interaction Design Project</h3><br>
+            <h5>5 Sep 2018 – 13 Nov 2018</h5>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="introduction">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Introduction</h2>
+            <p><b><i>VIMU</i></b> (VIsual MUsic) is a web application that not only simplifies the
+                process of music mixing, but also allows customization of music visuals in a fun and enjoyable way. It
+                allows easy mapping of local audio to keys on the computer keyboard and you will be able to create your
+                own unique musical piece by simply tapping on the keys.</p>
+            <p>This project is done in a group of 4 members, as part of CS3240 module.</p>
+            <br>
+            <h4 class="mb-3">Problem</h4>
+            <p>While learning to compose electronic music may be an exciting idea, the steep learning curve and heavy
+                investments into buying controllers, such as launchpad, may deter many from getting started in this
+                niche field. My team notice this gap and want to create a platform for aspiring musicians to have a
+                taste of how it is like to be in this field, by allowing them to play around with music composition in a
+                fun and engaging way, such that they can make a better decision whether electronic music is for
+                them. </p>
+            <br>
+            <div>
+                <h3><i class="fa fa-wrench"></i> Tools</h3>
+                <p>Figma | InVision | HTML | CSS | Bootstrap | jQuery</p>
+            </div>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="empathize">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Empathize</h2>
+
+            <h3>User Study</h3><br>
+
+            <p>To better understand the needs and frequently used features by electronic musicians, my team decided to
+                conduct contextual inquiries with Electronic Music Lab (EML) members from National University of
+                Singapore (NUS), who create and perform original electronic music live at various events.</p>
+            <p>We went down to one of their Ableton Live basic workshop held on 15 September 2018 and conducted
+                contextual inquiries with their current and new members. As we talked to them, we also asked them to do
+                a think-aloud and demonstrate how they use the features in Ableton Live. After they finished the tasks,
+                we also asked them the problems they face when creating/performing music. Below are some interesting
+                findings:</p>
+            <ul>
+                <li>Ableton Live is a complex application and the time taken to learn varies greatly (from 20 hours to
+                    a few months).
+                </li>
+                <li>
+                    When users first start using Ableton Live, they do not know where to start as there are too many
+                    functions. Even up till now, most of them do not know all the functions and uses only around 60% of
+                    the features available.
+                </li>
+                <li>During performance, there is limited engagement as audience only sees a musician on stage playing
+                    with a controller/laptop, at most with some stage lighting and tilting the controllers towards the
+                    audience such that they can see the lightings on the controllers.
+                </li>
+            </ul>
+
+            <div class="text-center">
+                <img src="img/vimu/eml-performance.PNG" alt="EML Performance" class="empathize">
+            </div>
+            <div class="text-center">
+                <a href="https://www.instagram.com/p/BnP16Z8Hnv1/?utm_source=ig_web_button_share_sheet" target="_blank">Performance by NUS EML</a>
+            </div>
+
+            <h5>Key Features Used</h5>
+            <ul>
+                <li>Quantization (allows music to be played on the beat or a fraction of the beat)</li>
+                <li>Looping</li>
+                <li>Toggling between on/off music on key press or hold key to play music</li>
+                <li>Sound level display</li>
+                <li>Mappign of audio to keys/controllers</li>
+                <li>Importing music</li>
+                <li>Sound library</li>
+                <li>Recording/exporting of music</li>
+            </ul>
+
+            <h5>Pain Points</h5>
+            <ul>
+                <li>Cannot immediately identify easily if an audio has been mapped to a key</li>
+                <li>Cannot immediately identify the settings of an audio, eg looping, quantization</li>
+                <li>Difficult to find music in the sound library</li>
+            </ul>
+
+            <br><br>
+
+            <h3>Current Applications</h3><br>
+
+            <p>Besides conducting user studies, we also looked into current available applications for music mixing.
+                From our research, applications in the market belong to two extreme fields. One extreme involves many
+                advanced and complex tools that allows musicians to compose and mix music very precisely on the
+                application (usually paid), while the other extreme is too simple and does not allow much customization
+                (usually free).</p>
+
+            <br>
+            <h5>Complex Appplication</h5>
+            <p>Ableton Live (used by NUSEML) is an advanced software music sequencer and digital audio workstation for
+                professionals to compose and perform music live. It consists of many features and effects that allows
+                musicians to create fine adjustments to music and also supports mapping of music to keyboard or external
+                controllers.</p>
+            <p>Although it can be a great application, the cheapest intro version costs USD 99 while the complete
+                integrated version costs USD 749. Besides the cost, due to the wide variety of features available in the
+                application, even with video tutorials, it will take some time for a beginner to get the hang of it.</p>
+
+            <br>
+            <h5>Simple Application</h5>
+            <p>Patatap and Mikutap are examples of web applications that allows users to get started with music mixing
+                easily by simply tapping on keyboard keys. </p>
+            <div class="text-center">
+                <span>
+                    <img src="img/vimu/patatap.PNG" alt="Patatap" class="currentApp">
+                    <img src="img/vimu/mikutap.PNG" alt="Mikutap" class="currentApp">
+                </span>
+            </div>
+            <p class="text-center">
+                <a href="https://patatap.com/" target="_blank">Patatap</a> (left),
+                <a href="https://aidn.jp/mikutap/" target="_blank">Mikutap</a> (right)</p>
+            <p>Both uses visualizations, together with preloaded music, to create a fun experience for all users,
+                regardless of their musical abilities. However, they are limited in scalability as both music and
+                visualizations are preloaded and cannot be customized to users’ needs.</p>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="define">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Define</h2>
+
+            <h3>Target Audience</h3><br>
+
+            <p>After researching into the current applications and findings from the user studies, my team decided to
+                come up with an intermediate-level platform, which combines the key ideas of the applications. To
+                prevent users from being overloaded with too many features, key features in Ableton Live will be
+                extracted out to let users have a taste of it. Yet, we would like to retain the fun element in music
+                composition by keeping the idea of music visualizations in Patatap and Mikutap but allowing more
+                flexibility by letting users map their own audio and customize the type of visuals shown. </p>
+            <br>
+            <p>Our <b>main target audience</b> will be for aspiring musicians who would like to try electronic music
+                composition but are unsure if it is their field and do not want to dive too deep into actual electronic
+                music composition yet. VIMU will be a good platform for them to get started as it allows them to try out
+                key features in music mixing in a fun and enjoyable way.</p>
+            <p>Our <b>secondary target audience</b> will be the performers who would like to create better engagement
+                with
+                their audience through displaying interesting visualizations when they perform. VIMU allows
+                customization in terms of mapping of audio to keyboard keys and type of visualizations shown (including
+                colour and shapes). This new form of interaction with the audience can potentially make live
+                performances more captivating.</p>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="ideation">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Ideation</h2>
+
+            <h3>Prototype (Iteration 1)</h3>
+            <p>My team followed parallel prototyping and decided to allow every member to have the freedom to design
+                their own layouts and incorporate the features they deem necessary for the application for the first
+                prototype.</p>
+            <p>For my first prototype, I decided to incorporate almost all the features listed by the users, while
+                ensuring that these features are made obvious and simple for users to understand.</p>
+
+            <div>
+                <div class="text-center">
+                    <img src="img/vimu/prototype1-Performance.png" alt="Prototype 1 (Performance)" class="ideation">
+                </div>
+                <p class="text-center">Performance Mode</p><br>
+
+                <h4>Music Settings (Red Box)</h4>
+                <h6><i>Compiles to Neilson’s Heuristics H-7 (Flexibility and efficiency of use)</i></h6>
+                <ul>
+                    <li>The 3 buttons can be toggled and they represent the 3 main music settings (Quantization,
+                        Trigger, Loop).
+                    </li>
+                    <li>This allows musicians to toggle the settings easily during the performance.</li>
+                </ul>
+                <br>
+                <h4>Mappings (Blue Box)</h4>
+                <h6><i>Compiles to Neilson’s Heuristics H-6 (Recognition rather than recall)</i></h6>
+                <ul>
+                    <li>As one of the pain points was that users can easily identify if an audio has been mapped to a
+                        key, I have decided to make it more obvious by enlarging the key mapping information.
+                    </li>
+                    <li>Visualization mapping is also shown so that musicians need not remember the mappings and can
+                        focus on the performance.
+                    </li>
+                </ul>
+                <br>
+                <h4>Volume and Track indication (Green Box)</h4>
+                <h6><i>Compiles to Neilson’s Heuristics H-2 (Math between system and real world)</i></h6>
+                <ul>
+                    <li>The sound level display is designed after the noise level chart, where red indicates high in
+                        decibels and green indicates low in decibels.
+                    </li>
+                    <div class="text-center">
+                        <img src="img/vimu/noise-level-chart.jpg" alt="Noise Level Chart" class="currentApp">
+                    </div>
+                    <div class="text-center">
+                        <a href="https://goo.gl/images/Tucv5R" target="_blank">Noise Level Chart</a>
+                    </div>
+                    <br>
+                    <li>Indication of track progression is shown as a progress bar if the track is not on loop, and as
+                        a circular progress bar if the track is on loop. This makes it easier for musicians to know the
+                        settings of the track as looping is usually associated with circles.
+                    </li>
+                </ul>
+            </div>
+
+            <br><br>
+            <div>
+                <div class="text-center">
+                    <img src="img/vimu/prototype1-Visuals.png" alt="Prototype 1 (Visuals)" class="ideation">
+                </div>
+                <p class="text-center">Visualization Customization</p><br>
+
+                <h4>Keyboard Settings (Red Box)</h4>
+                <h6><i>Compiles to Neilson’s Heuristics H-6 (Recognition rather than recall)</i></h6>
+                <ul>
+                    <li>I added the option to choose between keyboard types as I would like to cater the application
+                        for types of keyboard as it will be easier for them to map the keys when the keyboard is in the
+                        correct layout
+                    </li>
+                </ul>
+                <br>
+                <h4>Visualizations (Blue Box)</h4>
+                <h6><i>Compiles to Neilson’s Heuristics H-6 (Recognition rather than recall)</i></h6>
+                <ul>
+                    <li>The visualization display is shown in the dropdown and on the keys itself to reduce cognitive
+                        load on users to recall the shapes.
+                    </li>
+                    <li>The selected key is also highlighted in red for better indication.</li>
+                </ul>
+            </div>
+            <br>
+            <h3>Interactive Prototype (Iteration 1)</h3>
+            <div class="text-center">
+                <iframe width="850" height="650" src="https://invis.io/F3OTAZX8SMA" frameborder="0"
+                        allowfullscreen></iframe>
+            </div>
+            <br><br>
+
+            <h3>Review for Prototype (Iteration 1)</h3>
+            <p>After reviewing all the prototype designs, we decided to adopt a minimalist design and make VIMU a single
+                page application (Yee Ru’s layout design) to reduce the number of screens such that the UI is simple and
+                easy to navigate. As the main focus of the application is on the keyboard and visuals, we decided to
+                make the keyboard occupy the most space as the keys contain information like track name and track
+                progression. This is similar to my design for visualization and audio mapping, where the keyboard
+                occupies half of the screen and the editing area occupying the other half. However, my idea of
+                supporting different types of keyboards was scraped as we decided to focus on the most common keyboard
+                design (QWERTY) for our final prototype. Also, after much discussion, we chose to remove the
+                record/export feature as we felt that it belongs to a good-to-have feature but not essential to our main
+                application. Sound wave display was also decided to be added in as it is the only way to visualize the
+                sound in the application.</p>
+            <p>Below is the layout of the design we have agreed on after the discussion:</p>
+            <div class="text-center">
+                <img src="img/vimu/prototype1-Review.png" alt="Prototype 1 Review" class="review">
+            </div>
+
+            <br><br><br>
+            <h3>Second Prototype</h3>
+            <p>With the layout established, each of us again created a second prototype to decide on the overall design
+                and feel of the application. I decided to stick to my original prototype colour scheme – orange, as it
+                is a gender-neutral colour and I felt that it will appeal to both genders. Following <i>Neilson’s
+                Heuristics H-4 (Consistency and standards)</i>, standard icons are also used to indicate hiding of keyboard,
+                editing mode and information.</p>
+            <div class="text-center">
+                <iframe width="850" height="650" src="https://invis.io/32OTB025MVN" frameborder="0"
+                        allowfullscreen></iframe>
+            </div>
+            <br><br>
+            <h3>Review for Second Prototype</h3>
+            <p>For this round’s prototype, we took a vote on the design and colour scheme and we all chose my teammate
+                -- Marlene’s design. For her design, users are able to choose between a few colour schemes and the
+                rounded edged buttons gives a better feel and look to the keyboard.</p>
+            <p>For the editing mode, Yee Ru’s design to enclose the track name in a box and colour it, creates a better
+                understanding that the track is draggable from a key to another.</p>
+            <div class="mb-4 text-center">
+                <img src="img/vimu/prototype2-yeeru.png" alt="Prototype 2 Draggable" id="review2">
+                <p>Yee Ru's Draggable Design</p>
+            </div>
+            <p>With that, we began to work on our final interactive prototype.</p>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="prototype">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Prototype</h2>
+
+            <h3>Final Prototype</h3>
+            <p>For our final prototype, I created the overall layout for the application (using Bootstrap and jQuery) to
+                facilitate further collaboration. Besides the overall layout, I am also responsible for the keyboard
+                design.</p>
+            <p>Following is a comparison between the HTML created and my teammate – Marlene’s prototype:</p>
+
+            <div class="text-center">
+                <img src="img/vimu/html-performance.PNG" alt="HTML Performance" class="ideation">
+            </div>
+            <p class="text-center">Performance Mode</p><br>
+            <div class="text-center">
+                <img src="img/vimu/html-edit.PNG" alt="HTML Edit" class="ideation">
+            </div>
+            <p class="text-center">Edit Mode</p>
+
+            <br><br>
+
+            <a href="https://sherlynng.github.io/VIMU/Vimu.html" target="_blank"
+               class="btn btn-secondary btn-lg btn-block">Go to VIMU
+                <i class="fa fa-chevron-right"></i>
+            </a>
+        </div>
+    </section>
+
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="library/jquery/jquery.min.js"></script>
+<script src="library/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="library/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="js/portfolio-navbar.js"></script>
+
+</body>
+
+</html>

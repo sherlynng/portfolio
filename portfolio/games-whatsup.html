@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>What's Up?</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/games-whatsup.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="../portfolio.html">
+            <i class="fa fa-arrow-circle-left"></i> Back to Portfolio</a>
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</nav>
+
+<div class="container-fluid p-0">
+    <header class="masthead" style="background-image: url('../img/whatsup/cover.png')">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h2>Android Mobile Game</h2>
+                        <span class="subheading">May - Aug 2017</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="introduction">
+        <div class="my-auto">
+            <h2 class="mb-5 header">What's Up?</h2>
+
+            <div class="whatsup">
+                <img src="../img/whatsup/coloured_bear.png" alt="">
+                <p><b>What’s Up?</b> is a quick one-tap game, adapted from the popular game 'Seven-Up'. With
+                    simple controls, it improves your reflexes and test your multiplication skills. Such a game can also
+                    be played across all ages, ranging from primary school students to elderlies, bringing joy to
+                    everyone in the family.</p>
+                <p>There are 5 difficulty levels for Single Player mode and 3 multiplayer games, including real-time
+                    multiplayer games.</p>
+                <p>This project was done in a group of 2 members, as part of NUS Orbital 2017.</p>
+            </div>
+            <br><br>
+            <div>
+                <h3><i class="fa fa-wrench"></i> Programming Languages & Tools</h3>
+                <p>Java | Android Studio | Firebase</p>
+            </div>
+
+            <hr class="m-0">
+
+            <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="singlePlayer">
+                <div class="my-auto">
+                    <h2 class="mb-5 header">Single Player</h2>
+                    <p>Single player mode offers 5 difficulty levels (Lame, Easy, Medium, Hard, Extreme). The levels are
+                        designed with increasing difficulties and challenges to entice the player as he/she
+                        progresses.</p>
+                    <h4>How to Play?</h4>
+                    <div class="gameplay">
+                        <img src="../img/whatsup/singlePlayer.jpg" alt="">
+                        <ol>
+                            <li>Player first chooses which ‘Up’ he would like to play with (or randomly generated, depending
+                                on your settings), for example, 7-‘Up’.
+                            </li>
+                            <li>When the game begins, the player need to search for the smallest tile in the grid and
+                                start tapping the tiles in ascending order. Starting tile is 1.
+                            </li>
+                            <li>If the player press the correct tile, the tile will be replaced by a bigger number down
+                                the number line, as shown below. Replacement of tile is in random order so the player cannot
+                                predict the position of upcoming numbers.
+                            </li>
+                            <li>
+                                When the player encounter a tile that contains the ‘Up’ digit or is a multiple of the
+                                ‘Up’ digit, he avoids it by tapping the Up! button instead. In a 7-‘Up’ game, user need to
+                                avoid tiles such as 7,14,17,21,27,28……Failing to press the Up! button will lead to instant
+                                Game Over.
+                            </li>
+                            <li>
+                                If the player press the wrong tile, player loses a life. Pressing wrong
+                                tiles for 3 times will lead to Game Over.
+                            </li>
+                            <li>Given a time limit of 2 minutes, player will challenge to press as many tiles as
+                                possible. Score will be calculated based on the highest number that the player reaches.
+                            </li>
+                        </ol>
+                    </div>
+
+                    <br>
+
+                    <h4>Features</h4>
+                    <ul>
+                        <li>Hint (Shake Tile)</li>
+                        <li>Rotating Grid</li>
+                        <li>Freezing Tiles</li>
+                        <li>Change 'UP' digit</li>
+                        <li>Add 'UP' digit(s)</li>
+                        <li>Growing Grid</li>
+                        <li>Leaderboard</li>
+                    </ul>
+                </div>
+            </section>
+
+            <hr class="m-0">
+
+            <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="multiplayer">
+                <div class="my-auto">
+                    <h2 class="mb-5 header">Multiplayer</h2>
+                    <p>To double the fun, there are 3 multiplayer modes available.</p>
+                    <p>UP & DOWN and hurryUP requires one player to invite another player to join the
+                        game. Matching of players is achieved through Firebase Realtime database.</p>
+                    <p>Team-UP can be played by two players simultaneously using when device. It can
+                        also be played by one single player.</p>
+
+                    <br>
+                    <h4>Modes</h4>
+                    <div class="gameplay">
+                        <img src="../img/whatsup/multiplayer.jpg" alt="">
+                        <ul>
+                            <li>Hurry UP</li>
+                            <ul>
+                                <li>
+                                    Match two players.They will play the same game at the same time.
+                                    Challenge to see who reaches the target first.
+                                </li>
+                            </ul>
+                            <li>UP & DOWN</li>
+                            <ul>
+                                <li>
+                                    Match two players. This mode has no time limit. For the first round,
+                                    player A starts from increasing numbers (1,2,3...) while player B starts
+                                    from decreasing numbers (100,99, 98...). Depending on where they meet,
+                                    the players will get corresponding scores. They then switch position
+                                    (player A starts from decreasing numbers and player B starts from
+                                    increasing numbers). Combine scores from two rounds of game and
+                                    determine winner.
+                                </li>
+                            </ul>
+                            <li>Team UP</li>
+                            <ul>
+                                <li>
+                                    Time limit is imposed. The screen will display a UP buttons on both ends
+                                    of the screen. Each player is in charge of half the grid and one UP
+                                    button. Which UP button is to be pressed depends on the location of
+                                    the UP number, for example, if the UP number appears on lower half of
+                                    the screen, then the player in charge of the lower UP button must press
+                                    it.
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section>
+        <div class="text-center">
+            <a class="btn btn-secondary mt-4 mb-5 btn-lg" role="button" href="https://drive.google.com/open?id=1mgq-pUCS5xTMZzlRcq4y0oUm4sOYE0gm"
+               target="_blank"><i class="fas fa-file-alt"></i> Documentation</a>
+            <a class="btn btn-danger mt-4 mb-5 btn-lg" role="button" href="https://drive.google.com/open?id=1L7x9tOfMqbI33VZDWF9fpu5lF2cjEQSk"
+               target="_blank"><i class="fab fa-youtube"></i> Game Trailer</a>
+        </div>
+    </section>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="../library/jquery/jquery.min.js"></script>
+<script src="../library/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="../library/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="../js/portfolio-navbar.js"></script>
+
+</body>
+
+</html>

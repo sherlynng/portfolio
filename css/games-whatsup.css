@@ -1,0 +1,221 @@
+/*!
+ * Start Bootstrap - Resume v5.0.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+@font-face {
+  font-family: 'GFS Didot';
+  src: url('../fonts/GFSDidot-Regular') format('ttf');
+}
+
+body {
+  font-family: 'GFS Didot', serif;
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    /*padding-left: 5rem;*/
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'GFS Didot', serif;
+  font-weight: 700;
+  /*color: black;*/
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  text-shadow: 2px 2px 2px gray;
+}
+
+h2 {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 2px gray;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+#heading {
+  margin: auto;
+  /*width: 50%;*/
+}
+
+.header {
+  text-transform: uppercase;
+}
+
+.subheading {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+nav {
+  background-color: black;
+  opacity: 0.7;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+section.portfolio-section, .report-btn {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+@media (min-width: 768px) {
+  section.portfolio-section {
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 992px) {
+  section.portfolio-section, .report-btn {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.text-primary {
+  color: grey !important;
+}
+
+.button {
+  position: absolute;
+  right: 20px;
+}
+
+.site-heading h2, .site-heading span{
+  text-shadow: 3px 3px dimgrey;
+}
+
+.site-heading {
+  margin-top: 150px;
+}
+
+header.masthead {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  background: no-repeat center center;
+  background-color: #868e96;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: 0.3;
+}
+
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+  padding: 200px 0 150px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading,
+  header.masthead .post-heading,
+  header.masthead .site-heading {
+    padding: 200px 0;
+  }
+}
+
+header.masthead .page-heading,
+header.masthead .site-heading {
+  text-align: center;
+}
+
+header.masthead .page-heading h2,
+header.masthead .site-heading h2 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin: 10px 0 0;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 80px;
+  }
+}
+
+header.masthead .post-heading h1 {
+  font-size: 35px;
+}
+
+header.masthead .post-heading .meta,
+header.masthead .post-heading .subheading {
+  line-height: 1.1;
+  display: block;
+}
+
+header.masthead .post-heading .subheading {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0 30px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header.masthead .post-heading .meta {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  font-family: 'Lora', 'Times New Roman', serif;
+}
+
+header.masthead .post-heading .meta a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .post-heading h1 {
+    font-size: 55px;
+  }
+  header.masthead .post-heading .subheading {
+    font-size: 30px;
+  }
+}
+
+.whatsup img {
+  float: left;
+  height: 200px;
+}
+
+.gameplay img {
+  float: right;
+  height: 450px;
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 60px;
+}

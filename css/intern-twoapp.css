@@ -1,0 +1,127 @@
+/*!
+ * Start Bootstrap - Resume v5.0.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+@font-face {
+  font-family: 'GFS Didot';
+  src: url('../fonts/GFSDidot-Regular') format('ttf');
+}
+
+body {
+  font-family: 'GFS Didot', serif;
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    /*padding-left: 5rem;*/
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'GFS Didot', serif;
+  font-weight: 700;
+  color: black;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  text-shadow: 2px 2px 2px gray;
+}
+
+h2 {
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 2px gray;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+#heading {
+  margin: auto;
+  /*width: 50%;*/
+}
+
+.header {
+  text-transform: uppercase;
+}
+
+.subheading {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+nav {
+  background-color: black;
+  opacity: 0.7;
+}
+
+nav a {
+  font-weight: bold;
+}
+
+section.portfolio-section, .report-btn {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+@media (min-width: 768px) {
+  section.portfolio-section {
+    min-height: 100vh;
+  }
+}
+
+@media (min-width: 992px) {
+  section.portfolio-section, .report-btn {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.text-primary {
+  color: grey !important;
+}
+
+.jpAndroid {
+    height: 450px;
+    width: 250px;
+    margin: 15px;
+}
+
+.jpDesktop {
+  height: 300px;
+  width: 400px;
+  margin: 15px;
+}
+
+.design {
+  width: 1000px;
+}
+
+.button {
+  float: right;
+  margin-left: 10px;
+}
+
+.jotterpad img {
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 150px;
+  height: 170px;
+}
+
+.jotterpad p {
+  padding-right: 180px;
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,96 +10,174 @@
 
     <link href="library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link href="css/about.css" rel="stylesheet">
     <link href="css/portfolio.css" rel="stylesheet">
 
-  </head>
+</head>
 
-  <body>
+<body>
 
-  <!--Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
-      <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
-              data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-              aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="home.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="resume.html">RESUME</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">PORTFOLIO</a>
-            <span class="sr-only">(current)</span>
-          </li>
-        </ul>
-      </div>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/xin-ler-ng-935b9a159/" target="_blank">
-          <i class="fa fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://github.com/sherlynng" target="_blank">
-          <i class="fa fa-github fa-2x"></i>
-        </a>
-      </div>
-    </div>
-  </nav>
-
-    <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
-      <!--TODO: Categorise using tabs?-->
-      <div class="container">
-        <div class="row no-gutters">
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="portfolio-vimu.html">
-              <div class="caption text-center">
-                  <h2>VIMU</h2>
-                  <!--<p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>-->
-              </div>
-              <img class="img-fluid" src="img/portfolio-vimu.png" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="portfolio-tnf.html">
-              <span class="caption">
-                  <h2>thenotesrefinery V3.0</h2>
-                  <!--<p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>-->
-              </span>
-              <img class="img-fluid" src="img/portfolio-tnf.png" alt="">
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="portfolio-item" href="portfolio-boc.html">
-              <span class="caption">
-                  <h2>Bank Of China-NUS Hackathon 2018</h2>
-                  <!--<p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>-->
-              </span>
-              <img class="img-fluid" src="img/portfolio-boc.png" alt="">
-            </a>
-          </div>
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">RESUME</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">PORTFOLIO</a>
+                    <span class="sr-only">(current)</span>
+                </li>
+            </ul>
         </div>
-      </div>
-    </section>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/xin-ler-ng-935b9a159/" target="_blank">
+                <i class="fa fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://github.com/sherlynng" target="_blank">
+                <i class="fa fa-github fa-2x"></i>
+            </a>
+        </div>
+    </div>
+</nav>
 
-  <!-- Footer -->
-  <footer class="py-1 bg-dark">
-    <p class="text-center text-white">Ng Xin Ler  |  sherlyn.xinler@gmail.com</p>
-  </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="library/jquery/jquery.min.js"></script>
-    <script src="library/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Page Content -->
+<div class="container">
+    <div class="tabs">
+        <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all"
+                   aria-selected="true">All</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="intern-tab" data-toggle="tab" href="#intern" role="tab" aria-controls="intern"
+                   aria-selected="false">Internship</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="hci-tab" data-toggle="tab" href="#hci" role="tab" aria-controls="hci"
+                   aria-selected="false">Interaction Design</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="se-tab" data-toggle="tab" href="#se" role="tab" aria-controls="se"
+                   aria-selected="false">Software Engineering</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="games-tab" data-toggle="tab" href="#games" role="tab" aria-controls="games"
+                   aria-selected="false">Games</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="music-tab" data-toggle="tab" href="#music" role="tab" aria-controls="music"
+                   aria-selected="false">Music</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="others-tab" data-toggle="tab" href="#others" role="tab" aria-controls="others"
+                   aria-selected="false">Others</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab"></div>
+            <div class="tab-pane fade" id="intern" role="tabpanel" aria-labelledby="intern-tab"></div>
+            <div class="tab-pane fade" id="hci" role="tabpanel" aria-labelledby="hci-tab"></div>
+            <div class="tab-pane fade" id="se" role="tabpanel" aria-labelledby="se-tab"></div>
+            <div class="tab-pane fade" id="games" role="tabpanel" aria-labelledby="games-tab"></div>
+            <div class="tab-pane fade" id="music" role="tabpanel" aria-labelledby="music-tab"></div>
+            <div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="others-tab"></div>
+        </div>
+    </div>
 
-  </body>
+
+    <!-- Pagination -->
+    <!--<ul class="pagination justify-content-center">-->
+    <!--<li class="page-item">-->
+    <!--<a class="page-link" href="#" aria-label="Previous">-->
+    <!--<span aria-hidden="true">&laquo;</span>-->
+    <!--<span class="sr-only">Previous</span>-->
+    <!--</a>-->
+    <!--</li>-->
+    <!--<li class="page-item">-->
+    <!--<a class="page-link" href="#">1</a>-->
+    <!--</li>-->
+    <!--<li class="page-item">-->
+    <!--<a class="page-link" href="#">2</a>-->
+    <!--</li>-->
+    <!--<li class="page-item">-->
+    <!--<a class="page-link" href="#">3</a>-->
+    <!--</li>-->
+    <!--<li class="page-item">-->
+    <!--<a class="page-link" href="#" aria-label="Next">-->
+    <!--<span aria-hidden="true">&raquo;</span>-->
+    <!--<span class="sr-only">Next</span>-->
+    <!--</a>-->
+    <!--</li>-->
+    <!--</ul>-->
+
+</div>
+
+<!-- Footer -->
+<footer class="py-1 bg-dark">
+    <p class="text-center text-white">Ng Xin Ler | sherlyn.xinler@gmail.com</p>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="library/jquery/jquery.min.js"></script>
+<script src="library/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // load all into 'All' tab
+        $.get("intern.html", function (html_string) {
+            $("#all").append("<p></p><h3><b>Internship</b></h3>").css('text-align', 'center');
+            $("#all").append(html_string);
+            $.get("hci.html", function (html_string) {
+                $("#all").append("<p></p><h3><b>Interaction Design</b></h3>").css('text-align', 'center');
+                $("#all").append(html_string);
+
+                $.get("se.html", function (html_string) {
+                    $("#all").append("<p></p><h3><b>Software Engineering</b></h3>").css('text-align', 'center');
+                    $("#all").append(html_string);
+
+                    $.get("games.html", function (html_string) {
+                        $("#all").append("<p></p><h3><b>Games</b></h3>").css('text-align', 'center');
+                        $("#all").append(html_string);
+
+                        $.get("music.html", function (html_string) {
+                            $("#all").append("<p></p><h3><b>Music</b></h3>").css('text-align', 'center');
+                            $("#all").append(html_string);
+
+                            $.get("others.html", function (html_string) {
+                                $("#all").append("<p></p><h3><b>Others</b></h3>").css('text-align', 'center');
+                                $("#all").append(html_string);
+                            }, 'html');
+                        }, 'html');
+                    }, 'html');
+                }, 'html');
+            }, 'html');
+        }, 'html');
+
+        $("#intern").load("intern.html");
+        $("#hci").load("hci.html");
+        $("#se").load("se.html");
+        $("#games").load("games.html");
+        $("#music").load("music.html");
+        $("#others").load("others.html");
+    });
+</script>
+
+</body>
 
 </html>

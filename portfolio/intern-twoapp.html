@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Two App Studio Pte. Ltd.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../library/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/intern-twoapp.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="../portfolio.html">
+            <i class="fa fa-arrow-circle-left"></i> Back to Portfolio</a>
+        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#introduction">INTRODUCTION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#jpAndroid">ANDROID</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#jpDesktop">DESKTOP</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid p-0">
+    <section class="portfolio-section p-3 p-lg-5 d-flex d-column">
+        <div class="my-auto text-center" id="heading">
+            <h1 class="mb-0 text-center">Two App Studio <br> Pte. Ltd.</h1><br>
+            <h3 class="text-primary text-center">Student Internship Programme</h3><br>
+            <h5>14 May 2018 - 3 Aug 2018</h5>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="introduction">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Introduction</h2>
+
+            <p class="mb-5">Two App Studio Pte. Ltd. is a start-up company based in Singapore, developing in-house
+                popular applications such as Journey and JotterPad. </p>
+            <div class="jotterpad">
+                <img src="../img/twoapp/jotterpad.png" alt="">
+                <p><b>JotterPad</b>, one of the two main products, is a minimalistic plain text editor designed for
+                    writers to
+                    compose novels, lyrics, poems, essays, drafts and screenplays. </p>
+                <p>During this internship, I worked on both Android and web development for JotterPad Android and
+                    JotterPad desktop on macOS.</p>
+                <ul>
+                    <li>
+                        Importing of FDX and RTF (from Microsoft Words) file formats to JotterPad Android, converting
+                        them to Fountain and Markdown respectively.
+                    </li>
+                    <li>
+                        Bug fixes for existing features in JotterPad Android and creation of new dual element syntax for
+                        Fountain.
+                    </li>
+                    <li>
+                        Importing of RTF (from WordPad and TextEdit) and creation of prototype for JotterPad desktop.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3><i class="fa fa-wrench"></i> Programming Languages & Tools</h3>
+                <p>Java | HTML | CSS | JavaScript | jQuery | jSoup | Android Studio | Xcode</p>
+            </div>
+
+            <a class="btn btn-secondary mt-4 mb-5 button" role="button" href="https://drive.google.com/open?id=1YHtVBW8nqficUXwfEnWSnnlbGaMLtY4y"
+               target="_blank">Testimonial by Director</a>
+            <a class="btn btn-outline-secondary mt-4 mb-5 button" role="button" href="https://drive.google.com/open?id=1sEISjMLOnxnqeN6OCVd7g4yC2Nn6AUp0"
+               target="_blank">Full Report</a>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="jpAndroid">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Jotterpad Android</h2>
+
+            <h5>Conversion of FDX file format to Fountain syntax</h5>
+            <p>Jsoup open-source Java library was used to parse and extract data from FDX</p>
+            <br>
+
+            <h5>Conversion of RTF file format to Markdown syntax</h5>
+            <p>RTF Parser Kit, an external library, was used to extract out the plain text and modifications were made
+                to convert it to Markdown</p>
+            <br>
+
+            <h5>UI for ‘Import’ was implemented to allow importing files from local device and cloud services</h5>
+            <p>Android storage access framework was used to allow users to browse files and select the files to be
+                converted</p>
+            <div class="text-center">
+                <span>
+                        <img src="../img/twoapp/browseFiles.png" alt="DBS" class="jpAndroid">
+                        <img src="../img/twoapp/import.png" alt="UOB" class="jpAndroid">
+                </span>
+            </div>
+            <p class="text-center">Browse files for import (left), Select FDX/RTF files for import (right)</p>
+            <br>
+
+            <h5>Dual Element Syntax (Multiple Column)</h5>
+            <p>New syntax that is implemented in fountain to create more flexibility for writers who want to write
+                scenarios that happens concurrently</p>
+            <p><b>::-</b> (start), <b>:::</b> (new column), <b>-::</b> (end)</p>
+            <div class="text-center">
+                <span>
+                        <img src="../img/twoapp/multipleColumnsEditor.jpg" alt="DBS" class="jpAndroid">
+                        <img src="../img/twoapp/multipleColumnsPreview.jpg" alt="UOB" class="jpAndroid">
+                </span>
+            </div>
+            <p class="text-center">Editor Mode (left), Preview Mode (right)</p>
+            <br>
+        </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="portfolio-section p-3 p-lg-5 d-flex flex-column" id="jpDesktop">
+        <div class="my-auto">
+            <h2 class="mb-5 header">Jotterpad Desktop</h2>
+            <p>Prototype for macOS was created from scratch.</p>
+
+            <h5>Supported Features</h5>
+            <ul>
+                <li>Syntax highlighting for Fountain</li>
+                <li>Support Fountain script preview</li>
+                <li>Screenplay Manager</li>
+                <ul>
+                    <li>Reorder Scenes</li>
+                    <li>Rename Characters</li>
+                </ul>
+                <li>AUto-suggestion for Fountain syntax</li>
+                <li>Opening and saving of documents in Fountain, Markdown and plain text format</li>
+            </ul>
+
+            <div class="text-center">
+                <span>
+                        <img src="../img/twoapp/editorMode.png" alt="" class="jpDesktop">
+                        <img src="../img/twoapp/previewMode.png" alt="" class="jpDesktop">
+                </span>
+            </div>
+            <p class="text-center">Editor Mode (left), Preview Mode (right)</p>
+            <br>
+            <div class="text-center">
+                <span>
+                        <img src="../img/twoapp/editCharacter.png" alt="" class="jpDesktop">
+                        <img src="../img/twoapp/manageScreenplay.png" alt="" class="jpDesktop">
+                </span>
+            </div>
+            <p class="text-center">Rename Characters (left), Reorder Scenes (right)</p>
+            <br>
+            <div class="text-center">
+                <span>
+                        <img src="../img/twoapp/autosuggestCharacter.png" alt="" class="jpDesktop">
+                        <img src="../img/twoapp/autosuggestScene.png" alt="" class="jpDesktop">
+                </span>
+            </div>
+            <p class="text-center">Auto-suggestion for Character Names (left), Auto-suggestion for Scene Headingss
+                (right)</p>
+            <br>
+        </div>
+    </section>
+
+    <section class="report-btn p-3 p-lg-5">
+        <div class="my-auto">
+            <a href="https://drive.google.com/open?id=1sEISjMLOnxnqeN6OCVd7g4yC2Nn6AUp0" target="_blank"
+               class="btn btn-secondary btn-lg btn-block">View Full Report
+                <i class="fa fa-chevron-right"></i>
+            </a>
+        </div>
+    </section>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="../library/jquery/jquery.min.js"></script>
+<script src="../library/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="../library/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="../js/portfolio-navbar.js"></script>
+
+</body>
+
+</html>

@@ -92,32 +92,3 @@ section.portfolio-section, .report-btn {
 .text-primary {
   color: grey !important;
 }
-
-.jpAndroid {
-    height: 450px;
-    width: 250px;
-    margin: 15px;
-}
-
-.jpDesktop {
-  height: 300px;
-  width: 400px;
-  margin: 15px;
-}
-
-.button {
-  float: right;
-  margin-left: 10px;
-}
-
-.jotterpad img {
-  float: right;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 150px;
-  height: 170px;
-}
-
-.jotterpad p {
-  padding-right: 180px;
-}

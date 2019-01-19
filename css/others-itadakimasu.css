@@ -49,7 +49,7 @@ h3 {
 
 #heading {
   margin: auto;
-  width: 50%;
+  /*width: 50%;*/
 }
 
 .header {
@@ -70,7 +70,7 @@ nav a {
   font-weight: bold;
 }
 
-section.portfolio-section {
+section.portfolio-section, .report-btn {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
@@ -83,7 +83,7 @@ section.portfolio-section {
 }
 
 @media (min-width: 992px) {
-  section.portfolio-section {
+  section.portfolio-section, .report-btn {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
@@ -93,36 +93,17 @@ section.portfolio-section {
   color: grey !important;
 }
 
-#sidebar {
-    height: 400px;
-    width: 200px;
-    padding: 5px;
+.button {
+  position: absolute;
+  right: 20px;
 }
 
-.empathize {
-  width: 300px;
+.itadakimasu img {
+  float: right;
+  height: 350px;
+  width: 400px;
 }
 
-.ideation {
-  width: 800px;
-}
-
-.currentApp {
-  height: 300px;
-  width: 300px;
-  margin: 10px;
-}
-
-.review {
-  height: 300px;
-  width: 350px;
-}
-
-.review2 {
-  height: 50px;
-  width: 50px;
-}
-
-#ideation h5 {
-  padding-top: 20px;
+.itadakimasu p {
+  padding-right: 180px;
 }
